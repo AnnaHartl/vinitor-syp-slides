@@ -1,33 +1,63 @@
-= Demo-Presentation1
-Thomas W. Stütz
+= VICOSU
+SYP Projekt
 1.0, 2020-08-22
 ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]
 :icons: font
 
-== First Slide
+:revealjs_theme: serif
 
-* aaa
-* bbb
-* ccc [red]#red text#
 
-=== Second Slide
+Vinitor Communication and Support
 
-[plantuml,cld,png]
-----
-@startuml
-class Person {
-brand: String
-type: String
-}
-@enduml
-----
 
-== Third Slide
+== Team
+[.float-group]
+--
+[.left]
+image::AnnaHartl.jpg[Flower,140]
 
-image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940[VW]
+[.left]
+image::SheilaHautzmayer.jpeg[Flower,140]
+--
 
-== Fourth Slide
+== Unser Auftraggeber
 
-IMPORTANT: Something very important
+Vinitor
+
+image::vinitor_team.png[Flower, 350]
+
+== Was ist VICOSU
+
+== Ausgangssituation
+
+* Keine einfache kommunikation zwischen Kunde und Inhaber möglich
+
+* Schwierige Weitergabe von Informationen an Kunden
+
+* Unübersichtlichkeit durch verschiedene Informationswege (Handy, Email, ...)
+
+== Ziel
+
+* Kommunikation wird erleichtert
+* Informationen können besser vermittelt werden
+* Übersichtliche Sammlung von Kundenfeedback
+* Auswertung von Umfragen der Kunden
+
+== Systemarchitektur
+
+image::systemarchitektur.png[Flower, 300]
+
+== Live Demo
+
+[.notes]
+--
+* Ticket-System
+* Ankündigungen
+* Umfragen
+--
+
+== Probleme
+
+* Dateien in der Datenbank gespeichert
